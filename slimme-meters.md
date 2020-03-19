@@ -31,7 +31,7 @@ Onderstaande tabel geeft de gegevens weer zoals deze door gebruikers worden geme
       <td style="text-align:left">
         <p>USE_REQUEST_PIN</p>
         <p>HAS_OLED_SDD1306</p>
-        <p>USE_BELGIUM_PROTOCOL</p>
+        <p>USE_BELGIUM_PRTCL</p>
         <p>USE_MQTT</p>
         <p>SM_HAS_NO_FASE_INFO</p>
       </td>

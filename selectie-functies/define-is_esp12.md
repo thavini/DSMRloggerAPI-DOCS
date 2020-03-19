@@ -1,4 +1,4 @@
-# USE\_REQUEST\_PIN
+# HAS\_REQUEST\_PIN
 
 
 
