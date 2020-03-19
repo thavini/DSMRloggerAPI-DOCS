@@ -57,7 +57,7 @@ Deze bibliotheek is nodig vanaf versie 2.6.2 van de Arduino/ESP8266 core. Je kun
 
 #### ESP\_SysLogger
 
-Deze bibliotheek is alleen nodig als je USE\_SYSLOGGER defined. Je kunt de bibliotheek [hier](https://github.com/mrWheel/ESP_SysLogger) downloaden.
+Deze bibliotheek is alleen nodig als je USE\_SYSLOGGER defined. Je kunt de bibliotheek [hier](https://github.com/mrWheel/ESP_SysLogger) downloaden \(vanaf v1.6.3 commit [43eb15681125442addaf8b697f2b8557d4afa300](https://github.com/mrWheel/ESP_SysLogger/commit/43eb15681125442addaf8b697f2b8557d4afa300)\).
 
 #### Overige libraries <a id="overige-libraries"></a>
 
