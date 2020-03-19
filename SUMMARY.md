@@ -12,7 +12,7 @@
   * [Firmware Flashen](firmware/firmware-flashen.md)
   * [Data map Flashen](firmware/data-map-flashen.md)
 * [Selectie Functies](selectie-functies/README.md)
-  * [HAS\_REQUEST\_PIN](selectie-functies/define-is_esp12.md)
+  * [USE\_REQUEST\_PIN](selectie-functies/define-is_esp12.md)
   * [HAS\_OLED\_SSD1306](selectie-functies/define-has_oled_ssd1306.md)
   * [HAS\_OLED\_SH1106](selectie-functies/define-has_oled_sh1106.md)
   * [USE\_UPDATE\_SERVER](selectie-functies/define-use_update_server.md)
@@ -33,4 +33,5 @@
 * [FSexplorer](fsexplorer.md)
 * [Update Server](update-server.md)
 * [DSMR-editor](dsmr-editor.md)
+* [Slimme Meters](slimme-meters.md)
 
