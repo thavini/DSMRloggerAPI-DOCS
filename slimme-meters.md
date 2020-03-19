@@ -33,7 +33,7 @@ Onderstaande tabel geeft de gegevens weer zoals deze door gebruikers worden geme
         <p>HAS_OLED_SDD1306</p>
         <p>USE_BELGIUM_PRTCL</p>
         <p>USE_MQTT</p>
-        <p>SM_HAS_NO_FASE_INFO</p>
+        <p>HAS_NO_FASE_INFO</p>
       </td>
       <td style="text-align:left">Nee</td>
       <td style="text-align:left"></td>
@@ -88,7 +88,7 @@ Onderstaande tabel geeft de gegevens weer zoals deze door gebruikers worden geme
       <td style="text-align:left">Fluvius</td>
       <td style="text-align:left">Sagemcom</td>
       <td style="text-align:left">S211</td>
-      <td style="text-align:left">USE_BELGIUM_PROTOCOL SM_HAS_NO_FASE_INFO</td>
+      <td style="text-align:left">USE_BELGIUM_PRTCL HAS_NO_FASE_INFO</td>
       <td style="text-align:left">Nee</td>
       <td style="text-align:left">1-Fase</td>
       <td style="text-align:left">OK!</td>
