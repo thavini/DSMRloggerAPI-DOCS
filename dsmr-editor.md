@@ -2,7 +2,7 @@
 
 De DSMRloggerAPI heeft de mogelijkheid om meterstanden en instellingen via de browser te veranderen.
 
-Je start de **`DSMR-editor`** door in de FSexplorer op de knop \[Edit Setting\] te klikken.
+Je start de **`DSMR-editor`** door in het hoofdscherm op het ![](.gitbook/assets/settings.png) icoontje te klikken.
 
 ![](.gitbook/assets/settingseditorstart.png)
 

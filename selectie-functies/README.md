@@ -16,7 +16,7 @@ In onderstaande tabel kun je zien of een bepaalde functionaliteit beschikbaar is
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><a href="define-is_esp12.md">IS_ESP12</a>
+      <td style="text-align:left"><a href="define-is_esp12.md">USE_REQUEST_PIN</a>
       </td>
       <td style="text-align:left">Geeft aan of je de firmware voor een ESP12 of andere (ESP-01) processor
         compileren</td>
