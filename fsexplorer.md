@@ -4,10 +4,9 @@ Met de FSexplorer is het mogelijk bestanden op het SPIFFS \(SPI Flash File Syste
 
 Daarnaast kent de FSexplorer nog de volgende functies:
 
-* Starten van de Update Server
-* Opstarten DSMR Editor
-* Rebooten van de DSMR-logger
-* Formatteren van het SPIFFS
+* Starten van de Update Server    \[UpdateFirmware\]
+* Rebooten van de DSMR-logger     \[ReBoot\]
+* Formatteren van het SPIFFS     \[Format SPIFFS\]
 
 Er zijn verschillende manieren om de FSexplorer te starten:
 
