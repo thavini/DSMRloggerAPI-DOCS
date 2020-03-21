@@ -107,7 +107,7 @@ In onderstaande tabel kun je zien of een bepaalde functionaliteit beschikbaar is
       </td>
       <td style="text-align:left">Met de System logger is het mogelijk om debug informatie over de werking
         van de DSMR-logger op te slaan in een bestand van 500 regels.</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">JA</td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="define-show_passwrds.md">SHOW_PASSWORDS</a>
@@ -140,7 +140,8 @@ In onderstaande tabel kun je zien of een bepaalde functionaliteit beschikbaar is
 //  #define HAS_NO_SLIMMEMETER        // define for testing only!
 #define USE_MQTT                  // define if you want to use MQTT
 #define USE_MINDERGAS             // define if you want to update mindergas (also add token down below)
-//#define SHOW_PASSWRDS             // well .. show the PSK key and MQTT password, what else?
+//  #define USE_SYSLOGGER             // define if you want to use the sysLog library for debugging
+//  #define SHOW_PASSWRDS             // well .. show the PSK key and MQTT password, what else?
 /******************** don't change anything below this comment **********************/
 
 ```

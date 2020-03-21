@@ -21,7 +21,8 @@ Heb je géén Oled-display \(let op de twee _slashes_ voor `#define`'s van HAS\_
 //  #define HAS_NO_SLIMMEMETER        // define for testing only!
 #define USE_MQTT                  // define if you want to use MQTT
 #define USE_MINDERGAS             // define if you want to update mindergas (also add token down below)
-//#define SHOW_PASSWRDS             // well .. show the PSK key and MQTT password, what else?
+//  #define USE_SYSLOGGER             // define if you want to use the sysLog library for debugging
+//  #define SHOW_PASSWRDS             // well .. show the PSK key and MQTT password, what else?
 /******************** don't change anything below this comment **********************/
 
 ```
@@ -45,7 +46,8 @@ Heb je een OLED display op de DSMR-logger aangesloten dan moeten de compiler opt
 //  #define HAS_NO_SLIMMEMETER        // define for testing only!
 #define USE_MQTT                  // define if you want to use MQTT
 #define USE_MINDERGAS             // define if you want to update mindergas (also add token down below)
-//#define SHOW_PASSWRDS             // well .. show the PSK key and MQTT password, what else?
+//  #define USE_SYSLOGGER             // define if you want to use the sysLog library for debugging
+//  #define SHOW_PASSWRDS             // well .. show the PSK key and MQTT password, what else?
 /******************** don't change anything below this comment **********************/
 
 ```
