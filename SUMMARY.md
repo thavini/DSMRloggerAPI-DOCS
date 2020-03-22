@@ -30,6 +30,7 @@
   * [Slimme Meter gerelateerde restAPI's](beschrijving-restapis/slimme-meter-gerelateerde-restapis.md)
   * [Historische Gegevens gerelateerde restAPI's](beschrijving-restapis/historische-gegevens-gerelateerde-restapis.md)
 * [Upgrade DSMRloggerWS naar DSMRloggerAPI](upgrade-dsmrloggerws-naar-dsmrloggerapi.md)
+* [Nieuwe DSMRloggerAPI firmware flashen](nieuwe-dsmrloggerapi-firmware-flashen.md)
 * [FSexplorer](fsexplorer.md)
 * [Update Server](update-server.md)
 * [DSMR-editor](dsmr-editor.md)
