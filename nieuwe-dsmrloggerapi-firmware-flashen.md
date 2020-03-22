@@ -1,6 +1,10 @@
 # Nieuwe DSMRloggerAPI firmware flashen
 
-Nieuwe firmware kan via de web-interface van de DSMR-logger "_Over the Air_" geflashed worden.
+Nieuwe DSMRloggerAPI firmware kan via de web-interface van de DSMR-logger "_Over the Air_" geflashed worden.
+
+{% hint style="danger" %}
+Hoe je de firmware moet upgraden van _DSMRlogger**WS**_ naar _DSMRlogger**API**_ ****staat [hier](upgrade-dsmrloggerws-naar-dsmrloggerapi.md) beschreven!
+{% endhint %}
 
 ### Pre compiled Binaries
 
