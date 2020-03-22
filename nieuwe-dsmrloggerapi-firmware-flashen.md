@@ -36,7 +36,7 @@ Klik nu op de bovenste \[Choose File\] knop
 
 ![](.gitbook/assets/chooseino.png)
 
-Selecteer in het popup-window het zojuist gedownloade en uitgepakte ini.bin file:
+Selecteer in het popup-window het zojuist gedownloade en uitgepakte ino.bin file:
 
 ![](.gitbook/assets/updateselectfw.png)
 

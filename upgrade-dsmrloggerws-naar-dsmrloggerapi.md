@@ -1,12 +1,12 @@
 # Upgrade DSMRloggerWS naar DSMRloggerAPI
 
-In [deze video](https://youtu.be/Pq-Zm-o8Xo8) vertel ik hoe je de DSMRloggerWS firmware eenvoudig kunt upgraden naar de nieuwe DSMRloggerAPI firmware.
+In [deze video](https://youtu.be/Pq-Zm-o8Xo8) vertel ik hoe je de _DSMRlogger**WS**_ firmware eenvoudig kunt upgraden naar de nieuwe _DSMRlogger**API**_ firmware.
 
-Het upgraden vanaf de DSMRloggerWS firmware naar de DSMRloggerAPI firmware bestaat uit de volgende stappen:
+Het upgraden vanaf de _DSMRlogger**WS**_ firmware naar de _DSMRlogger**API**_ ****firmware bestaat uit de volgende stappen:
 
 * Gebruik de FSexplorer om de **`PRDhours.csv`, `PRDdays.csv`** en **`PRDmonths.csv`** naar je computer te downloaden.
 
-![](.gitbook/assets/fsexplorer_ws.png)
+![](.gitbook/assets/fsexplorerfwupdate.png)
 
 * Download de DSMRloggerAPI.ino.bin.zip en DSMRloggerAPI.spiffs.bin.zip files van [github](https://github.com/mrWheel/DSMRloggerAPI/releases) naar je computer.
 * Unzip de twee .zip bestanden
