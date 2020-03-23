@@ -21,7 +21,7 @@ Het upgraden vanaf de _DSMRlogger**WS**_ firmware naar de _DSMRlogger**API**_ **
 ![](.gitbook/assets/flash_ino_bin.png)
 
 * Wacht na de boodschap dat de update goed is gegaan tot de teller op 10 staat en klik dan in de browser op \[Back\] of tik in de URL-balk het IP-Adres van de DSMR-logger in met daarachter "**`/update`**". Je komt nu weer in het scherm waar je nieuwe firmware kunt flashen.
-* Klik nu op de knop \[Update Firmware\], selecteer ![](.gitbook/assets/choosespiffs.png) door op \[Choose File\] te klikken het DSMRlogger.**spiffs.bin** bestand en klik op de knop \[Flash Spiffs\]. 
+* Klik nu op de knop \[Update Firmware\], selecteer ![](.gitbook/assets/choosespiffs.png) door op \[Choose File\] onder de tekst "_Selecteer een **.spiffs.bin** bestand_" te klikken het DSMRlogger.**spiffs.bin** bestand en klik op de knop \[Flash Spiffs\]. 
 
 ![](.gitbook/assets/flash_spiffs.bin.png)
 

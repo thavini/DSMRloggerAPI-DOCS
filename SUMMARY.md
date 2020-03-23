@@ -35,4 +35,5 @@
 * [DSMR-editor](dsmr-editor.md)
 * [Slimme Meters](slimme-meters.md)
 * [Upgrade DSMRloggerWS naar DSMRloggerAPI](upgrade-dsmrloggerws-naar-dsmrloggerapi.md)
+* [License](license.md)
 
