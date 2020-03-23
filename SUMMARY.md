@@ -6,7 +6,6 @@
   * [Slimme Meter gerelateerde restAPI's](beschrijving-restapis/slimme-meter-gerelateerde-restapis.md)
   * [Historische Gegevens gerelateerde restAPI's](beschrijving-restapis/historische-gegevens-gerelateerde-restapis.md)
 * [Nieuwe DSMRloggerAPI firmware flashen](nieuwe-dsmrloggerapi-firmware-flashen.md)
-* [Upgrade DSMRloggerWS naar DSMRloggerAPI](upgrade-dsmrloggerws-naar-dsmrloggerapi.md)
 * [Voorbereiding](voorbereiding/README.md)
   * [Arduino IDE](voorbereiding/arduino-ide.md)
   * [ESP8266 Core](voorbereiding/esp8266-core.md)
@@ -35,4 +34,5 @@
 * [Update Server](update-server.md)
 * [DSMR-editor](dsmr-editor.md)
 * [Slimme Meters](slimme-meters.md)
+* [Upgrade DSMRloggerWS naar DSMRloggerAPI](upgrade-dsmrloggerws-naar-dsmrloggerapi.md)
 

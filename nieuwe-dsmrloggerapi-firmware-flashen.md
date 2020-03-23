@@ -8,7 +8,7 @@ Hoe je de firmware moet upgraden van _DSMRlogger**WS**_ naar _DSMRlogger**API**_
 
 ### Pre compiled Binaries
 
-Op [github](https://github.com/mrWheel/DSMRloggerAPI) staan van de major releases voor de meest voorkomende situaties binaries van zowel de firmware als van het SPIFFS in .zip formaat. 
+Op [github](https://github.com/mrWheel/DSMRloggerAPI) staan van de major releases, voor de meest voorkomende situaties, binaries van zowel de firmware als van het SPIFFS in .zip formaat. 
 
 ![](.gitbook/assets/githubmain.png)
 
@@ -28,7 +28,7 @@ In de beschrijving van de release staat met welke compiler options de verschille
 
 Als de binary\(s\) op je computer staan dan moet je deze uitpakken \(unzippen\).
 
-Ga nu op de DSMR-logger naar de FSexplorer \(door op het icoon ![](.gitbook/assets/fsexplorer_icon.png) te klikken\). Klik nu op de knop \[Update Firmware\].
+Ga nu op de DSMR-logger naar de FSexplorer \(door op het icoon ![](.gitbook/assets/fsexplorer_icon.png) te klikken\) en klik vervolgens op de knop \[Update Firmware\].
 
 ![](.gitbook/assets/fsexplorerfwupdate.png)
 

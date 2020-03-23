@@ -18,7 +18,7 @@ Opvragen gegevens uit de uren tabel
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Geeft de historische gegevens over de afgelopen 24 uur terug
+Geeft een JSON string met de historische gegevens over de afgelopen 24 uur terug.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -60,7 +60,7 @@ Opvragen gegevens uit de dagen tabel
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Geeft alle gegevens over de afgelopen 14 dagen terug.
+Geeft een JSON string met alle gegevens over de afgelopen 14 dagen terug.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -101,7 +101,7 @@ Opvragen gegevens uit de maanden tabel
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Geeft alle gegevens van de afgelopen 24 maanden terug
+Geeft een JSON string met alle gegevens van de afgelopen 24 maanden terug.
 {% endapi-method-description %}
 
 {% api-method-spec %}

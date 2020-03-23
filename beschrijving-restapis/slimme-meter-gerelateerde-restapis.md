@@ -6,7 +6,7 @@ Systeem Informatie van de Slimme Meter
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Geeft systeem informatie van de Slimme Meter, zoals ID's en Serie nummers, terug
+Geeft systeem een JSON string met informatie van de Slimme Meter, zoals ID's en Serie nummers, terug.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -39,7 +39,7 @@ Informatie uit het laatst gelezen telegram
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Geeft de actuele meterstanden van de Slimme Meter terug
+Geeft de actuele meterstanden van de Slimme Meter terug in een JSON string.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -86,7 +86,7 @@ Alle velden die de dsmr library terug kan geven
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Geeft alle velden terug die door de Slimme Meter worden afgegeven
+Geeft een JSON string met alle velden die door de Slimme Meter worden afgegeven terug.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -165,7 +165,7 @@ Informatie van één veld uit het laatst gelezen telegram
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Geeft één veld terug. Bijvoorbeeld:  
+Geeft een JSON string met informatie over één veld terug. Bijvoorbeeld:  
   
 http://dsmr-api.local/api/v1/sm/fields/current\_l2
 {% endapi-method-description %}
