@@ -2,6 +2,11 @@
 
 In [deze video](https://youtu.be/Pq-Zm-o8Xo8) vertel ik hoe je de _DSMRlogger**WS**_ firmware eenvoudig kunt upgraden naar de nieuwe _DSMRlogger**API**_ firmware.
 
+{% hint style="warning" %}
+Je kunt deze upgrade maar één maal uitvoeren!  
+Nadat de upgrade is uitgevoerd \(en als het is gelukt\) kun je nieuwe firmware via de [normale](nieuwe-dsmrloggerapi-firmware-flashen.md) weg updaten!
+{% endhint %}
+
 Het upgraden vanaf de _DSMRlogger**WS**_ firmware naar de _DSMRlogger**API**_ ****firmware bestaat uit de volgende stappen:
 
 * Gebruik de FSexplorer om de **`PRDhours.csv`, `PRDdays.csv`** en **`PRDmonths.csv`** naar je computer te downloaden.

@@ -1,6 +1,6 @@
 # USE\_SYSLOGGER
 
-Met deze optie enabled zal de DSMRloggerAPI firmware debug informatie naar een logfile schrijven. Dit logfile kan mbv.het commando 'Q' in het telnet menu bekeken worden.
+Als deze optie actief is zal de DSMRloggerAPI firmware debug informatie naar een logfile schrijven. Dit logfile kan mbv.het commando 'Q' in het telnet menu bekeken worden.
 
 Er is ook een restAPI waarmee de log regels uit de DSMR-logger opgehaald kunnen worden.
 

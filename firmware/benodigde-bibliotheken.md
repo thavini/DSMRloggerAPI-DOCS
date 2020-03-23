@@ -14,13 +14,13 @@ De firmware is getest met `Version 0.1 - Commit f79c906 on 18 Sep 2018` maar nie
 **Let op!** Deze functionaliteit is slechts beperkt getest!
 
 Dit is een clone van de _**arduino-dsmr**_ bibliotheek van _Matthijs Kooijman_ die is aangepast voor de specifieke Belgische velden. Je kunt deze bibliotheek [hier](https://github.com/mrWheel/arduino-dsmr-be) downloaden.  
-Kijk ook [hier](../selectie-functies/define-use_belgium_protocol.md).
+Kijk ook [hier](selectie-functies/define-use_belgium_protocol.md).
 
 #### arduino-dsmr30 \(_optioneel_\) <a id="dsmr30"></a>
 
 **Let op!** Deze functionaliteit is slechts beperkt getest!
 
-Heb je een pré DSMR 4.0 Slimme Meter dan kun je deze toch aansluiten op de DSMR-logger maar moet je een aantal `#define`'s in het eerste tab-blad aanpassen én je moet [deze](https://github.com/mrWheel/arduino-dsmr30) library installeren. Kijk ook [hier](../selectie-functies/define-use_pre40_protocol.md).
+Heb je een pré DSMR 4.0 Slimme Meter dan kun je deze toch aansluiten op de DSMR-logger maar moet je een aantal `#define`'s in het eerste tab-blad aanpassen én je moet [deze](https://github.com/mrWheel/arduino-dsmr30) library installeren. Kijk ook [hier](selectie-functies/define-use_pre40_protocol.md).
 
 #### TimeLib <a id="timelib"></a>
 
