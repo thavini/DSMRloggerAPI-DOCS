@@ -1,4 +1,4 @@
-# Zelf DSMRloggerAPI firmware compileren
+# Arduino IDE geschikt maken voor het compileren van de DSMRloggerAPI firmware
 
 In de volgende vier hoofdstukken wordt beschreven wat je moet doen om zélf de DSMRloggerAPI firmware te compileren en naar de DSMR-logger te flashen.
 

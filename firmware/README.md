@@ -1,10 +1,6 @@
----
-description: >-
-  Om de firmware op de DSMR-logger te krijgen moeten een aantal stappen worden
-  ondernomen. Hieronder staat welke stappen dat zijn.
----
+# DSMRloggerAPI firmware
 
-# Firmware
+Om de firmware op de DSMR-logger te krijgen moeten een aantal stappen worden ondernomen. Hieronder staat welke stappen dat zijn.
 
 * [Benodigde Bibliotheken](benodigde-bibliotheken.md)
 * [DSMRloggerAPI Firmware](dsmrloggerapi-firmware.md)

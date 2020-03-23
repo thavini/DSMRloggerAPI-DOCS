@@ -1,4 +1,4 @@
-# Selectie Functies
+# Selecteren compiler opties
 
 ### Overzicht te selecteren functies <a id="overzicht-te-selecteren-functies"></a>
 
