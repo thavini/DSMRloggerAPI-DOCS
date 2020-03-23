@@ -1,6 +1,6 @@
 # Upgrade DSMRloggerWS naar DSMRloggerAPI
 
-In [deze video](https://youtu.be/Pq-Zm-o8Xo8) vertel ik hoe je de _DSMRlogger**WS**_ firmware eenvoudig kunt upgraden naar de nieuwe _DSMRlogger**API**_ firmware.
+[Deze video](https://youtu.be/Pq-Zm-o8Xo8) laat zien hoe je de _DSMRlogger**WS**_ firmware eenvoudig kunt upgraden naar de nieuwe _DSMRlogger**API**_ firmware.
 
 {% hint style="warning" %}
 Je kunt deze upgrade maar één maal uitvoeren!  
