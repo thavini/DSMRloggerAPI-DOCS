@@ -1,3 +1,9 @@
+---
+description: >-
+  Alle beschikbare gegevens kunnen via restAPI call's aan de DSMR-logger worden
+  opgevraagd.
+---
+
 # Beschrijving restAPI's
 
 * [DSMR-logger gerelateerde restAPI's](dsmr-logger-gerelateerde-restapis.md)
