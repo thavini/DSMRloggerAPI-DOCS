@@ -1,6 +1,6 @@
 # Beschrijving restAPI's
 
-Alle beschikbare gegevens kunnen via restAPI call's bij de DSMR-logger worden opgevraagd. De restAPI's zijn verdeelt in drie groepen. Informatie die met de hardware en firmware te maken heeft, informatie die met de Slimme Meter te maken heeft en historische gegevens die, aan de hand van de door de Slimme Meter afgegeven gegevens, door de DSMR-logger in bestanden worden opgeslagen.
+Alle beschikbare gegevens kunnen via restAPI call's bij de DSMR-logger worden opgevraagd. De restAPI's zijn verdeelt in drie groepen. Informatie die met de hardware en firmware te maken heeft \(`/dev`\), informatie die met de Slimme Meter te maken heeft \(`/sm`\) en historische gegevens die, aan de hand van de door de Slimme Meter afgegeven gegevens, door de DSMR-logger in bestanden worden opgeslagen \(`/hist`\).
 
 * [DSMR-logger gerelateerde restAPI's](dsmr-logger-gerelateerde-restapis.md)
 * [Slimme Meter gerelateerde restAPI's](slimme-meter-gerelateerde-restapis.md)
@@ -53,5 +53,5 @@ Geeft dit als output:
 
 ### Andere systemen
 
-Veel andere systemen zoals bijvoorbeeld Home Assistant hebben hun eigen manier om restAPI's op te vragen. Lees hiervoor de betreffende documentatie.
+Veel andere systemen, zoals bijvoorbeeld Home Assistant, hebben hun eigen manier om restAPI's op te vragen. Lees hiervoor de betreffende documentatie.
 
