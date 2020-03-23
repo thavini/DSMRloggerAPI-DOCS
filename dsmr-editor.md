@@ -18,6 +18,8 @@ Betekenis van de knoppen:
 
 ![](.gitbook/assets/editdata.png)
 
+Het muteren van de maanden tabel is nog niet helemaal zoals het zou moeten zijn. Het is vrij lastig omdat de software zeker moet zijn dat de _jaar/maand_ gegevens, van boven naar beneden, _aflopen en aansluiten_ en ook de meterstanden moeten _een steeds lagere waarde_ hebben. Wordt niet aan voorgaande inter-validatie voldaan, dan kleurt het vakje waar de fout is ontdekt rood en worden de gegevens **niet** opgeslagen.
+
 ### Settings aanpassen
 
 ![](.gitbook/assets/editsettings.png)
