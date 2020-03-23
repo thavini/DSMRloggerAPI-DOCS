@@ -12,7 +12,7 @@
   * [ESP8266 Data Upload Tool](voorbereiding/esp8266-data-upload-tool.md)
   * [Installatie Bibliotheken](voorbereiding/installatie-bibliotheken.md)
 * [DSMRloggerAPI firmware](firmware/README.md)
-  * [Benodigde Bibliotheken](firmware/benodigde-bibliotheken.md)
+  * [Installeren benodigde bibliotheken](firmware/benodigde-bibliotheken.md)
   * [DSMRloggerAPI Firmware](firmware/dsmrloggerapi-firmware.md)
   * [Selecteren compiler opties](firmware/selectie-functies/README.md)
     * [USE\_REQUEST\_PIN](firmware/selectie-functies/define-is_esp12.md)
