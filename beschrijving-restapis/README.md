@@ -1,9 +1,3 @@
----
-description: >-
-  Alle beschikbare gegevens kunnen via restAPI call's aan de DSMR-logger worden
-  opgevraagd.
----
-
 # Beschrijving restAPI's
 
 Alle beschikbare gegevens kunnen via restAPI call's bij de DSMR-logger worden opgevraagd. De restAPI's zijn verdeelt in drie groepen. Informatie die met de hardware en firmware te maken heeft, informatie die met de Slimme Meter te maken heeft en historische gegevens die, aan de hand van de door de Slimme Meter afgegeven gegevens, door de DSMR-logger in bestanden worden opgeslagen.
