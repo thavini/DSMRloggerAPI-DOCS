@@ -66,7 +66,7 @@ configuration.yaml:
 
   - platform: rest
     name: "Laatste Update restAPI"
-    resource: http://192.168.2.106/api/v1/sm/fields/power_returned
+    resource: http://192.168.2.106/api/v1/sm/fields/timestamp
 #   value_template: '{{ value_json.fields[0].value }}'
     value_template: >
       {{      value_json.fields[0].value[4:6] + "-" + 

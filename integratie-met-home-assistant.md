@@ -1,6 +1,6 @@
 # Integratie met Home Assistant
 
-Om in Home Assistant de gegevens uit de DSMR-logger \(met de DSMRloggerAPI firmware\) te gebruiken heb ik het configuration.yaml bestand als volgt aangepast:
+Om in Home Assistant de gegevens uit de DSMR-logger \(met de **DSMRloggerAPI** firmware\) te gebruiken heb ik het **`configuration.yaml`** bestand als volgt aangepast:
 
 ```text
 # Configure a default setup of Home Assistant (frontend, api, etc)
@@ -30,7 +30,7 @@ sensor:
   - platform: mqtt
     name: "Laatste Update mqtt"
     state_topic: "DSMR-PRD/timestamp" 
-#   value_template: '{{ value_json.timestamp[0].value | round(3) }}'
+#   value_template: '{{ value_json.timestamp[0].value }}'
     value_template: >
       {{      value_json.timestamp[0].value[4:6] + "-" + 
               value_json.timestamp[0].value[2:4] + "-" + 
@@ -66,7 +66,7 @@ sensor:
 
   - platform: rest
     name: "Laatste Update restAPI"
-    resource: http://192.168.2.106/api/v1/sm/fields/power_returned
+    resource: http://192.168.2.106/api/v1/sm/fields/timestamp
 #   value_template: '{{ value_json.fields[0].value }}'
     value_template: >
       {{      value_json.fields[0].value[4:6] + "-" + 
