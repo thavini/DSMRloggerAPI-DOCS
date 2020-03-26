@@ -2,7 +2,7 @@
 
 Nieuwe DSMRloggerAPI firmware kan via de web-interface van de DSMR-logger "_Over the Air_" geflashed worden maar mocht dat, om de één of andere manier niet lukken dan kunnen de pré compiled binaries ook bedraad geflashed worden.
 
-1. [OTA met de Update Server flashen](nieuwe-dsmrloggerapi-firmware-flashen.md#pre-compiled-binaries)
+1. [OTA met de Update Server flashen](nieuwe-dsmrloggerapi-firmware-flashen.md#ota-flashen-met-de-update-server)
 2. [Bedraad met het Espressif flash Tool](nieuwe-dsmrloggerapi-firmware-flashen.md#bedraad-flashen-met-het-espressif-flash-tool)
 
 {% hint style="danger" %}
@@ -30,6 +30,8 @@ In de beschrijving van de release staat met welke compiler options de verschille
 {% endhint %}
 
 Als de binary\(s\) op je computer staan dan moet je deze uitpakken \(unzippen\).
+
+### OTA flashen met de Update Server
 
 Ga nu op de DSMR-logger naar de FSexplorer \(door op het icoon ![](.gitbook/assets/fsexplorer_icon.png) te klikken\) en klik vervolgens op de knop \[Update Firmware\].
 
