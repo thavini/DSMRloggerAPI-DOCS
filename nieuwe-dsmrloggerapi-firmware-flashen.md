@@ -72,5 +72,5 @@ Klik nu op "flash\_download\_tools.exe" en selecteer \[esp8266 DownloadTool\] in
 
 ![](.gitbook/assets/espressif_tool3.png)
 
-Selecteer de twee bin bestanden. Het x.ino.bin bestand moet op adres 0x0 starten, het x.spiffs.bin op 0x200000. Selecteer de COM poort waar de DSMR-logger op is aangesloten, zet de DSMR-logger in flash mode en klik op \[START\]. Na enige tijd krijg je de melding dat alles goed is gegaan.
+Selecteer de twee bin bestanden. Het x.**ino.bin** bestand moet op adres **0x0** starten, het x.**spiffs.bin** op adres **0x200000**. Selecteer de COM poort waar de DSMR-logger op is aangesloten, _zet de DSMR-logger in flash mode_ en klik op \[START\]. Na enige tijd krijg je de melding dat alles goed is gegaan.
 
