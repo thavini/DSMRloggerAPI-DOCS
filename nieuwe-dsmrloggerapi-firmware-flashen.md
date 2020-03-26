@@ -56,7 +56,7 @@ Na enige tijd verschijnt het volgende scherm:
 Alleen als in de beschrijving van een release staat dat ook SPIFFS opnieuw geflased moet worden moet u dit doen. In veel gevallen zal volstaan om eventueel een bepaald bestand naar SPIFFS te uploaden. Ook dit zal dan expliciet in de release beschrijving staan.
 {% endhint %}
 
-### Bedraad flashen met het Espressif Flash tool
+### Bedraad flashen met het Espressif Flash Download tool
 
 Espressif heeft voor zijn ESP-boards een \(helaas alleen Windows\) tool ontwikkeld dat het bedraad flashen erg eenvoudig maakt.
 
