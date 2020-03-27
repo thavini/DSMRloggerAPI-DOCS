@@ -1,6 +1,6 @@
 # Nieuwe DSMRloggerAPI firmware flashen
 
-Nieuwe DSMRloggerAPI firmware kan via de web-interface van de DSMR-logger "_Over the Air_" geflashed worden maar mocht dat, om de één of andere manier niet lukken dan kunnen de pré compiled binaries ook bedraad geflashed worden.
+Nieuwe DSMRloggerAPI firmware kan via de web-interface van de DSMR-logger "_Over the Air_" geflashed worden maar mocht dat, om de één of andere reden niet lukken dan kunnen de pré compiled binaries ook bedraad geflashed worden.
 
 1. [OTA met de Update Server flashen](nieuwe-dsmrloggerapi-firmware-flashen.md#ota-flashen-met-de-update-server)
 2. [Bedraad met het Espressif flash Tool](nieuwe-dsmrloggerapi-firmware-flashen.md#bedraad-flashen-met-het-espressif-flash-tool)
