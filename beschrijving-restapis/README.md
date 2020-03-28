@@ -108,5 +108,5 @@ Met hassOS lukt het mij niet om bij resource de hostname \(DSMR-API.local\) te g
 
 ### Andere systemen
 
-Veel andere systemen, zoals bijvoorbeeld hebben hun eigen manier om restAPI's op te vragen. Lees hiervoor de betreffende documentatie.
+Veel andere systemen hebben hun eigen manier om restAPI's op te vragen. Lees hiervoor de betreffende documentatie.
 
