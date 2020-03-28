@@ -79,20 +79,20 @@ configuration.yaml:
   - platform: rest
     name: "Levering l1"
     resource: http://192.168.2.106/api/v1/sm/fields/power_returned_l1
-    unit_of_measurement: "kWh"
-    value_template: '{{ value_json.fields[1].value | round(3) }}'
+    unit_of_measurement: "Watt"
+    value_template: '{{ (value_json.fields[1].value | float * 1000.0) | round(1) }}'
 
   - platform: rest
     name: "Levering l2"
     resource: http://192.168.2.106/api/v1/sm/fields/power_returned_l2
     unit_of_measurement: 'Watt'
-    value_template: '{{ value_json.fields[1].value | round(3) }}'
+    value_template: '{{ (value_json.fields[1].value | float * 1000.0) | round(1) }}'
 
   - platform: rest
     name: "Levering l3"
     resource: http://192.168.2.106/api/v1/sm/fields/power_returned_l3
     unit_of_measurement: 'Watt'
-    value_template: '{{ value_json.fields[1].value | round(3) }}'
+    value_template: '{{ (value_json.fields[1].value | float * 1000.0) | round(1) }}'
 
 ```
 
