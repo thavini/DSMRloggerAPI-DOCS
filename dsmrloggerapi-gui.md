@@ -8,7 +8,7 @@ Hieronder wat afbeeldingen van de standaard meegeleverde GUI
 
 ![Telegram](.gitbook/assets/dsmr-api-telegram.png)
 
-![per Dag Grafisch](.gitbook/assets/dsmr-ap-dayschart.png)
+![per Dag Grafisch](.gitbook/assets/dsmr_gui_dag_graph.png)
 
 ![System Info](.gitbook/assets/dsmr_gui_sysinfo.png)
 
