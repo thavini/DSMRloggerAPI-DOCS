@@ -33,6 +33,7 @@
 * [FSexplorer](fsexplorer.md)
 * [Update Server](update-server.md)
 * [DSMR-editor](dsmr-editor.md)
+* [DSMRloggerAPI GUI](dsmrloggerapi-gui.md)
 * [Slimme Meters](slimme-meters.md)
 * [Integratie met Home Assistant](integratie-met-home-assistant.md)
 * [Upgrade DSMRloggerWS naar DSMRloggerAPI](upgrade-dsmrloggerws-naar-dsmrloggerapi.md)
