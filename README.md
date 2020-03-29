@@ -41,5 +41,5 @@ In dit document worden de volgende begrippen gebruikt:
 
 Een volledige beschrijving van dit project kun je [hier](https://willem.aandewiel.nl/index.php/2020/02/28/restapis-zijn-hip-nieuwe-firmware-voor-de-dsmr-logger/) vinden.
 
-![](.gitbook/assets/dsmr-logger_v4.5-e.png)
+![](.gitbook/assets/dsmr-logger_v4.5.png)
 

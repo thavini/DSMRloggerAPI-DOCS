@@ -3,23 +3,12 @@
 Om in Home Assistant de gegevens uit de DSMR-logger \(met de **DSMRloggerAPI** firmware\) te gebruiken heb ik het **`configuration.yaml`** bestand als volgt aangepast:
 
 ```text
-# Configure a default setup of Home Assistant (frontend, api, etc)
-default_config:
+#################################
+# uitbreiding configuratie.yaml #
+#################################
+# koppeling met de DSMR-logger  #
+#################################
 
-# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
-# http:
-#   base_url: example.duckdns.org:8123
-
-# Text to speech
-tts:
-  - platform: google_translate
-
-group: !include groups.yaml
-automation: !include automations.yaml
-script: !include scripts.yaml
-scene: !include scenes.yaml
-
-# koppeling met de DSMR-logger
 sensor:
   - platform: mqtt
     name: "Gebruik"
@@ -100,7 +89,7 @@ De power\_delivered velden worden via MQTT uitgelezen. De power\_returned via de
 
 Dit is het resultaat:
 
-![](.gitbook/assets/ha_restapi%20%281%29.png)
+![](.gitbook/assets/ha_integratie.png)
 
 {% hint style="warning" %}
 Merk op dat de resource bij de restAPI's het IP adres van de DSMR-logger gebruiken. Ik krijg het in mijn opzet niet voor elkaar hier de hostname \(dsmr-api.local\) te gebruiken.

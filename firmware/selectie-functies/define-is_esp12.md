@@ -6,7 +6,7 @@ Met deze optie zal de DSMR-logger de Data Request pin van de Slimme Meter 'hoog'
 
 {% hint style="info" %}
 Let op!  
-Alleen voor DSMR-logger V4.  
+Alleen voor DSMR-logger v4.0 en v4.5  
 Deze functionaliteit werkt alleen in combinatie met een Versie 4 van de DSMR-logger. 
 {% endhint %}
 

@@ -20,7 +20,10 @@ In onderstaande tabel kun je zien of een bepaalde functionaliteit beschikbaar is
       </td>
       <td style="text-align:left">Geeft aan of je de firmware voor een ESP12 of andere (ESP-01) processor
         compileren</td>
-      <td style="text-align:left">NEE</td>
+      <td style="text-align:left">
+        <p>Voor v4.0 en hoger: NEE</p>
+        <p>Voor andere versies: JA</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="define-use_update_server.md">USE_UPDATE_SERVER</a>
@@ -36,7 +39,7 @@ In onderstaande tabel kun je zien of een bepaalde functionaliteit beschikbaar is
         type SSD1306) te sturen</td>
       <td style="text-align:left">
         <p>JA</p>
-        <p>Niet in combinatie met HAS_OLED_SH1106</p>
+        <p>niet in combinatie met HAS_OLED_SH1106</p>
       </td>
     </tr>
     <tr>
@@ -46,7 +49,7 @@ In onderstaande tabel kun je zien of een bepaalde functionaliteit beschikbaar is
         type SH1106) te sturen</td>
       <td style="text-align:left">
         <p>JA</p>
-        <p>Niet in combinatie met HAS_OLED_SSD1306</p>
+        <p>niet in combinatie met HAS_OLED_SSD1306</p>
       </td>
     </tr>
     <tr>
@@ -55,7 +58,7 @@ In onderstaande tabel kun je zien of een bepaalde functionaliteit beschikbaar is
       <td style="text-align:left">Voor Belgische Slimme Meters</td>
       <td style="text-align:left">
         <p>JA</p>
-        <p>Niet in combinatie met USE_PRE40_PROTOCOL</p>
+        <p>niet in combinatie met USE_PRE40_PROTOCOL</p>
       </td>
     </tr>
     <tr>
@@ -64,7 +67,7 @@ In onderstaande tabel kun je zien of een bepaalde functionaliteit beschikbaar is
       <td style="text-align:left">Voor &quot;oude&quot; Slimme Meters</td>
       <td style="text-align:left">
         <p>JA</p>
-        <p>Niet in combinatie met USE_BELGIUM_PROTOCOL</p>
+        <p>niet in combinatie met USE_BELGIUM_PROTOCOL</p>
       </td>
     </tr>
     <tr>
@@ -82,10 +85,7 @@ In onderstaande tabel kun je zien of een bepaalde functionaliteit beschikbaar is
       </td>
       <td style="text-align:left">Sommige &#xE9;&#xE9;n fase Slimme Meter&apos;s geven geen info per fase
         af</td>
-      <td style="text-align:left">
-        <p>JA</p>
-        <p>alleen in combinatie met USE_BELGIUM_PROTOCOL of USE_PRE40_PROTOCOL</p>
-      </td>
+      <td style="text-align:left">JA</td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="define-use_mqtt.md">USE_MQTT</a>
@@ -107,7 +107,10 @@ In onderstaande tabel kun je zien of een bepaalde functionaliteit beschikbaar is
       </td>
       <td style="text-align:left">Met de System logger is het mogelijk om debug informatie over de werking
         van de DSMR-logger op te slaan in een bestand van 500 regels.</td>
-      <td style="text-align:left">JA</td>
+      <td style="text-align:left">
+        <p>JA</p>
+        <p>alleen gebruiken om te debuggen.</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="define-show_passwrds.md">SHOW_PASSWORDS</a>

@@ -83,5 +83,5 @@ Unprocessed entity, goto website mindergas for more information
 
 | \#define | Functie |
 | :--- | :--- |
-| USE\_SYSLOGGER | De ESP\_SysLogger is een class waarmee log regels in een RING bestand van 500 regels kunnen worden geschreven. Na 500 regels wordt steeds de oudste regel overschreven door de nieuwste regel. |
+| USE\_SYSLOGGER | De ESP\_SysLogger is een library waarmee log regels in een RING bestand van 500 regels kunnen worden geschreven. Na 500 regels wordt steeds de oudste regel overschreven door de nieuwste regel. |
 
