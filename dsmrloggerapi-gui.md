@@ -10,5 +10,7 @@ Hieronder wat afbeeldingen van de standaard meegeleverde GUI
 
 ![](.gitbook/assets/dsmr_gui_dag_graph.png)
 
-![System Info](.gitbook/assets/dsmr_gui_sysinfo.png)
+![Systeem Info](.gitbook/assets/dsmr_gui_sysinfo.png)
+
+
 
