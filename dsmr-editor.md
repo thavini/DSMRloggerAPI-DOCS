@@ -28,7 +28,7 @@ Het muteren van de maanden tabel is nog niet helemaal zoals het zou moeten zijn.
 
 #### Hostname
 
-De default Hostname is DSMR-API. De documentatie gaat ook uit van deze default hostname. Mocht je de hostnaam hier veranderen dan moet je bij het lezen van de documentatie overal "DSMR-API" vervangen door de hier ingevoerde hostnaam.
+De default Hostname is DSMR-API. De documentatie gaat ook uit van deze default hostname. Mocht je de hostname hier veranderen dan moet je bij het lezen van de documentatie overal "_**DSMR-API**_" vervangen door de hier ingevoerde hostname \(in bovenstaand plaatje is de hostname veranderd in "_**DSMR-108**_"\).
 
 #### Telegram Lees Interval
 
@@ -41,6 +41,10 @@ De standaard index pagina is "_DSMRindex.html_". Mocht je zelf een GUI schrijven
 {% hint style="warning" %}
 Een nieuw ingevoerde index pagina wordt pas actief na het opnieuw opstarten van de DSMR-logger \(\[ReBoot\] knop in de FSexplorer\).
 {% endhint %}
+
+#### MQTT Top Topic
+
+Dit is het topic waarmee de MQTT berichten naar de broker worden verstuurd. Standaard is het Top Topic "_**DSMR-API**_". In bovenstaand plaatje is het Top Topic veranderd in "_**DSMR-PRD**_".
 
 #### Verzend MQTT berichten
 

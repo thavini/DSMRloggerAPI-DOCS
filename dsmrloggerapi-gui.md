@@ -2,7 +2,7 @@
 
 Hieronder wat afbeeldingen van de standaard meegeleverde GUI
 
-![per Maand Kosten](.gitbook/assets/dsmr_gui_maanden_kosten.png)
+![per Maand](.gitbook/assets/dsmr_gui_maanden.png)
 
 ![per Maand Grafisch](.gitbook/assets/dsmr_gui_maanden_graph.png)
 
