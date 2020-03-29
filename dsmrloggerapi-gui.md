@@ -4,7 +4,7 @@ Hieronder wat afbeeldingen van de standaard meegeleverde GUI
 
 ![per Maand](.gitbook/assets/dsmr_gui_maanden.png)
 
-![](.gitbook/assets/dsmr_gui_maanden_graph.png)
+![per Maand Grafisch](.gitbook/assets/dsmr_gui_maanden_graph.png)
 
 ![Telegram](.gitbook/assets/dsmr-api-telegram.png)
 
