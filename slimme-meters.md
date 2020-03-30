@@ -47,7 +47,7 @@ Onderstaande tabel geeft de gegevens weer zoals deze door gebruikers worden geme
       <td style="text-align:left">T211</td>
       <td style="text-align:left">1, 3, 5, 9, 8</td>
       <td style="text-align:left">Nee</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Geeft geen info per fase(?)</td>
       <td style="text-align:left">OK!</td>
     </tr>
     <tr>
