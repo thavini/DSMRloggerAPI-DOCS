@@ -17,7 +17,7 @@ Onderstaande tabel geeft de gegevens weer zoals deze door gebruikers worden geme
     <tr>
       <td style="text-align:left">Landys</td>
       <td style="text-align:left">E350</td>
-      <td style="text-align:left">1, 2, (3), 4, 9, 10, 11</td>
+      <td style="text-align:left">1, 2, 6, 7, (8)</td>
       <td style="text-align:left">Nee</td>
       <td style="text-align:left">DSMR 5.0</td>
       <td style="text-align:left">OK!</td>
@@ -25,7 +25,7 @@ Onderstaande tabel geeft de gegevens weer zoals deze door gebruikers worden geme
     <tr>
       <td style="text-align:left">Landys</td>
       <td style="text-align:left">E360</td>
-      <td style="text-align:left">1,2,3,9</td>
+      <td style="text-align:left">1,2,6,7</td>
       <td style="text-align:left">JA</td>
       <td style="text-align:left">DSMR 5.0</td>
       <td style="text-align:left">OK!</td>
@@ -33,7 +33,7 @@ Onderstaande tabel geeft de gegevens weer zoals deze door gebruikers worden geme
     <tr>
       <td style="text-align:left">Landys</td>
       <td style="text-align:left">ZCF120ABd</td>
-      <td style="text-align:left">1, 2, 3, (4), 6, 7, 8, 9, 10, (11)</td>
+      <td style="text-align:left">1, 2, 4, 5, 6</td>
       <td style="text-align:left">Nee</td>
       <td style="text-align:left">
         <p>DSMR 2.2+</p>
@@ -45,7 +45,7 @@ Onderstaande tabel geeft de gegevens weer zoals deze door gebruikers worden geme
     <tr>
       <td style="text-align:left">Seconia</td>
       <td style="text-align:left">T211</td>
-      <td style="text-align:left">1, 3, 5, 9, 8</td>
+      <td style="text-align:left">1, 2, 3, 6</td>
       <td style="text-align:left">Nee</td>
       <td style="text-align:left">Geeft geen info per fase(?)</td>
       <td style="text-align:left">OK!</td>
@@ -85,7 +85,7 @@ Onderstaande tabel geeft de gegevens weer zoals deze door gebruikers worden geme
     <tr>
       <td style="text-align:left">Kamstrup</td>
       <td style="text-align:left">162</td>
-      <td style="text-align:left">6</td>
+      <td style="text-align:left">1, 2, 4, 5, 6</td>
       <td style="text-align:left">JA</td>
       <td style="text-align:left">DSMR 2.2
         <br />1-Fase</td>
@@ -94,7 +94,7 @@ Onderstaande tabel geeft de gegevens weer zoals deze door gebruikers worden geme
     <tr>
       <td style="text-align:left">Sagemcom</td>
       <td style="text-align:left">S211</td>
-      <td style="text-align:left">5, 8</td>
+      <td style="text-align:left">1, 2, 3, 6</td>
       <td style="text-align:left">Nee</td>
       <td style="text-align:left">1-Fase</td>
       <td style="text-align:left">OK!</td>
@@ -104,17 +104,14 @@ Onderstaande tabel geeft de gegevens weer zoals deze door gebruikers worden geme
 
 1. USE\_REQUEST\_PIN
 2. USE\_UPDATE\_SERVER
-3. HAS\_OLED\_SSD1306
-4. HAS\_OLED\_SH1106
-5. USE\_BELGIUM\_PROTOCOL
-6. USE\_PRE40\_PROTOCOL
-7. USE\_NTP\_TIME
-8. SM\_HAS\_NO\_FASE\_INFO
-9. USE\_MQTT
-10. USE\_MINDERGAS
-11. USE\_SYSLOGGER
-12. SHOW\_PASSWRDS
-13. HAS\_NO\_SLIMMEMETER
+3. USE\_BELGIUM\_PROTOCOL
+4. USE\_PRE40\_PROTOCOL
+5. USE\_NTP\_TIME
+6. USE\_MQTT
+7. USE\_MINDERGAS
+8. USE\_SYSLOGGER
+9. SHOW\_PASSWRDS
+10. HAS\_NO\_SLIMMEMETER
 
 
 

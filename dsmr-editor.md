@@ -16,19 +16,23 @@ Betekenis van de knoppen:
 
 ### Meterstanden aanpassen
 
-![](.gitbook/assets/editdata.png)
+![Edit Maanden tabel](.gitbook/assets/editdata.png)
 
 Het muteren van de maanden tabel is nog niet helemaal zoals het zou moeten zijn. Het is vrij lastig omdat de software zeker moet zijn dat de _jaar/maand_ gegevens, van boven naar beneden, _aflopen en aansluiten_ en ook de meterstanden moeten _een steeds lagere waarde_ hebben. Wordt niet aan voorgaande inter-validatie voldaan, dan kleurt het vakje waar de fout is ontdekt rood en worden de gegevens **niet** opgeslagen.
 
 ### Settings aanpassen
 
-![](.gitbook/assets/editsettings.png)
+![Edit Settings](.gitbook/assets/editsettings.png)
 
 
 
 #### Hostname
 
 De default Hostname is DSMR-API. De documentatie gaat ook uit van deze default hostname. Mocht je de hostname hier veranderen dan moet je bij het lezen van de documentatie overal "_**DSMR-API**_" vervangen door de hier ingevoerde hostname \(in bovenstaand plaatje is de hostname veranderd in "_**DSMR-108**_"\).
+
+#### SM Has Fase Info \(0=No, 1=Yes\)
+
+Voer een **1** in als de aangesloten Slimme Meter wél fase informatie afgeeft, voer anders een **0** \(nul\) in.
 
 #### Telegram Lees Interval
 
@@ -41,6 +45,14 @@ De standaard index pagina is "_DSMRindex.html_". Mocht je zelf een GUI schrijven
 {% hint style="warning" %}
 Een nieuw ingevoerde index pagina wordt pas actief na het opnieuw opstarten van de DSMR-logger \(\[ReBoot\] knop in de FSexplorer\).
 {% endhint %}
+
+#### OLED type
+
+Hier kun je invoeren óf en wat voor OLED schermpje op de DSMR-logger is aangesloten.
+
+* Voer een **0** \(nul\) in als er geen OLED scherm is aangesloten
+* Voer een **1** in als het scherm van het type **SDD1306** is
+* Voer een **2** in als het scherm van het type **SH1106** is
 
 #### MQTT Top Topic
 
