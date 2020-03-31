@@ -33,26 +33,6 @@ In onderstaande tabel kun je zien of een bepaalde functionaliteit beschikbaar is
       <td style="text-align:left">JA</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="define-has_oled_ssd1306.md">HAS_OLED_SSD1306</a>
-      </td>
-      <td style="text-align:left">Functionaliteit om (status) meldingen naar een OLED scherm (0.96&quot;
-        type SSD1306) te sturen</td>
-      <td style="text-align:left">
-        <p>JA</p>
-        <p>niet in combinatie met HAS_OLED_SH1106</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="define-has_oled_sh1106.md">HAS_OLED_SH1106</a>
-      </td>
-      <td style="text-align:left">Functionaliteit om (status) meldingen naar een OLED scherm (1.3&quot;
-        type SH1106) te sturen</td>
-      <td style="text-align:left">
-        <p>JA</p>
-        <p>niet in combinatie met HAS_OLED_SSD1306</p>
-      </td>
-    </tr>
-    <tr>
       <td style="text-align:left"><a href="define-use_belgium_protocol.md">USE_BELGIUM_PROTOCOL</a>
       </td>
       <td style="text-align:left">Voor Belgische Slimme Meters</td>
@@ -79,13 +59,6 @@ In onderstaande tabel kun je zien of een bepaalde functionaliteit beschikbaar is
         <p>JA</p>
         <p>alleen in combinatie met USE_PRE40_PROTOCOL</p>
         </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="define-sm_has_no_fase_info.md">SM_HAS_NO_FASE_INFO</a>
-      </td>
-      <td style="text-align:left">Sommige &#xE9;&#xE9;n fase Slimme Meter&apos;s geven geen info per fase
-        af</td>
-      <td style="text-align:left">JA</td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="define-use_mqtt.md">USE_MQTT</a>
@@ -134,12 +107,9 @@ In onderstaande tabel kun je zien of een bepaalde functionaliteit beschikbaar is
 /******************** compiler options  ********************************************/
 #define IS_ESP12                  // define if it's a 'bare' ESP-12 (no reset/flash functionality on board)
 #define USE_UPDATE_SERVER         // define if there is enough memory and updateServer to be used
-#define HAS_OLED_SSD1306          // define if a 0.96" OLED display is present
-//  #define HAS_OLED_SH1106           // define if a 1.3" OLED display is present
 //  #define USE_BELGIUM_PROTOCOL      // define if Slimme Meter is a Belgium Smart Meter
 //  #define USE_PRE40_PROTOCOL        // define if Slimme Meter is pre DSMR 4.0 (2.2 .. 3.0)
 //  #define USE_NTP_TIME              // define to generate Timestamp from NTP (Only Winter Time for now)
-//  #define SM_HAS_NO_FASE_INFO       // if your SM does not give fase info use total delevered/returned
 //  #define HAS_NO_SLIMMEMETER        // define for testing only!
 #define USE_MQTT                  // define if you want to use MQTT
 #define USE_MINDERGAS             // define if you want to update mindergas (also add token down below)

@@ -16,5 +16,4 @@ Om deze functionaliteit te kunnen gebruiken moet je ook de speciaal gehackte [ar
 | :--- | :--- |
 | USE\_PRE40\_PROTOCOL | Deze define zorgt ervoor dat de instellingen voor de seriële poort goed worden gezet \(9600, SERIAL\_7E1\). tevens wordt een speciaal gehackte 'arduino-dsmr' bibliotheek gebruikt omdat het pré DSMR 4.0 protocol geen checksum heeft. |
 | USE\_NTP\_TIME | Het pré DSMR 4.0 protocol geeft niet altijd een timestamp \(0-0:1.0.0\). Doet jouw Slimme Meter dat ook niet, dan wordt met deze define de tijd via het NTP protocol gebruikt. Vooralsnog alleen Winter Tijd! |
-| SM\_HAS\_NO\_FASE\_INFO | Heb je een Slimme Meter die geen verbruik per fase \(1-0:x1.7.0 enz.\) door geeft, dan kun je met deze optie er toch voor zorgen dat de Actuele chart informatie geeft over je verbruik |
 

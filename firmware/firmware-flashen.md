@@ -6,39 +6,10 @@ Om de firmware naar de **DSMR-logger Versie 4** te kunnen flashen moet deze eers
 
 Dit doe je door in de ArduinoIDE de **`#define`**'s in het eerste tab-blad aan te passen.
 
-Heb je géén Oled-display \(let op de twee _slashes_ voor `#define`'s van HAS\_OLED\_SSD1306 en HAS\_OLED\_SH1106!\):
-
 ```text
 /******************** compiler options  ********************************************/
 #define IS_ESP12                  // define if it's a 'bare' ESP-12 (no reset/flash functionality on board)
 #define USE_UPDATE_SERVER         // define if there is enough memory and updateServer to be used
-//  #define HAS_OLED_SSD1306          // define if a 0.96" OLED display is present
-//  #define HAS_OLED_SH1106           // define if a 1.3" OLED display is present
-//  #define USE_BELGIUM_PROTOCOL      // define if Slimme Meter is a Belgium Smart Meter
-//  #define USE_PRE40_PROTOCOL        // define if Slimme Meter is pre DSMR 4.0 (2.2 .. 3.0)
-//  #define USE_NTP_TIME              // define to generate Timestamp from NTP (Only Winter Time for now)
-//  #define SM_HAS_NO_FASE_INFO       // if your SM does not give fase info use total delevered/returned
-//  #define HAS_NO_SLIMMEMETER        // define for testing only!
-#define USE_MQTT                  // define if you want to use MQTT
-#define USE_MINDERGAS             // define if you want to update mindergas (also add token down below)
-//  #define USE_SYSLOGGER             // define if you want to use the sysLog library for debugging
-//  #define SHOW_PASSWRDS             // well .. show the PSK key and MQTT password, what else?
-/******************** don't change anything below this comment **********************/
-
-```
-
-{% hint style="info" %}
-Overigens kan het géén kwaad om de firmware te compileren met een OLED scherm ge-defined, ook als je geen scherm op de DSMR-logger hebt aangesloten \(mocht je later toch een OLED scherm willen aansluiten dan hoef je de firmware niet meer opnieuw te flashen\). 
-{% endhint %}
-
-Heb je een OLED display op de DSMR-logger aangesloten dan moeten de compiler options worden aangepast door de twee _slashes_ voor het gebruikte type OLED display weg te halen \(in het voorbeeld hieronder is er een OLED scherm van het type SH1106 aangesloten\).
-
-```text
-/******************** compiler options  ********************************************/
-#define IS_ESP12                  // define if it's a 'bare' ESP-12 (no reset/flash functionality on board)
-#define USE_UPDATE_SERVER         // define if there is enough memory and updateServer to be used
-//  #define HAS_OLED_SSD1306          // define if a 0.96" OLED display is present
-#define HAS_OLED_SH1106           // define if a 1.3" OLED display is present
 //  #define USE_BELGIUM_PROTOCOL      // define if Slimme Meter is a Belgium Smart Meter
 //  #define USE_PRE40_PROTOCOL        // define if Slimme Meter is pre DSMR 4.0 (2.2 .. 3.0)
 //  #define USE_NTP_TIME              // define to generate Timestamp from NTP (Only Winter Time for now)
