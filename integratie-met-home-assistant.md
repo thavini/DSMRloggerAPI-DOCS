@@ -92,6 +92,6 @@ Dit is het resultaat:
 ![](.gitbook/assets/ha_integratie.png)
 
 {% hint style="warning" %}
-Merk op dat de resource bij de restAPI's het IP adres van de DSMR-logger gebruiken. Ik krijg het in mijn opzet niet voor elkaar hier de hostname \(dsmr-api.local\) te gebruiken.
+Merk op dat ik voor de resource bij de restAPI's het IP adres van de DSMR-logger gebruik. Ik krijg het in mijn opzet niet voor elkaar hier de hostname \(dsmr-api.local\) te gebruiken.
 {% endhint %}
 
