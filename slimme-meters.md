@@ -25,7 +25,7 @@ Onderstaande tabel geeft de gegevens weer zoals deze door gebruikers worden geme
     <tr>
       <td style="text-align:left">Landys</td>
       <td style="text-align:left">E350</td>
-      <td style="text-align:left">PRE40</td>
+      <td style="text-align:left">PRE40 (bin)</td>
       <td style="text-align:left">JA</td>
       <td style="text-align:left">DSMR 2.2+</td>
       <td style="text-align:left">OK</td>
