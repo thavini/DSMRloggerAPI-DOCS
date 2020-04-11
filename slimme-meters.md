@@ -67,6 +67,14 @@ Onderstaande tabel geeft de gegevens weer zoals deze door gebruikers worden geme
       <td style="text-align:left">OK!</td>
     </tr>
     <tr>
+      <td style="text-align:left">ISKRA</td>
+      <td style="text-align:left">MT382</td>
+      <td style="text-align:left">1, 2, 4,?</td>
+      <td style="text-align:left">JA</td>
+      <td style="text-align:left">DSMR 2.2+</td>
+      <td style="text-align:left">OK</td>
+    </tr>
+    <tr>
       <td style="text-align:left">KAIFA</td>
       <td style="text-align:left">E0026</td>
       <td style="text-align:left">?</td>
@@ -86,6 +94,14 @@ Onderstaande tabel geeft de gegevens weer zoals deze door gebruikers worden geme
       <td style="text-align:left">KAIFA</td>
       <td style="text-align:left">MA105C</td>
       <td style="text-align:left">?</td>
+      <td style="text-align:left">JA</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">OK!</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">KAIFA</td>
+      <td style="text-align:left">MA340C</td>
+      <td style="text-align:left">1,2,6,7</td>
       <td style="text-align:left">JA</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">OK!</td>
