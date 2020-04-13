@@ -54,6 +54,11 @@ Hier kun je invoeren óf en wat voor OLED schermpje op de DSMR-logger is aangesl
 * Voer een **1** in als het scherm van het type **SDD1306** is
 * Voer een **2** in als het scherm van het type **SH1106** is
 
+#### Flip Oled scherm
+
+* Voer **0** \(nul\) in om het scherm standaard te gebruiken
+* Voet 1 in als je het scherm "_op zijn kop_" gebruikt.
+
 #### MQTT Top Topic
 
 Dit is het topic waarmee de MQTT berichten naar de broker worden verstuurd. Standaard is het Top Topic "_**DSMR-API**_". In bovenstaand plaatje is het Top Topic veranderd in "_**DSMR-PRD**_".
