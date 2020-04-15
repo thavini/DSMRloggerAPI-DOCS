@@ -33,6 +33,7 @@
 * [DSMRloggerAPI GUI](dsmrloggerapi-gui.md)
 * [Slimme Meters](slimme-meters.md)
 * [Integratie met Home Assistant](integratie-met-home-assistant.md)
+* [Integratie met Home Assistant Extra's](integratie-met-home-assistant-extras.md)
 * [Upgrade DSMRloggerWS naar DSMRloggerAPI](upgrade-dsmrloggerws-naar-dsmrloggerapi.md)
 * [License](license.md)
 
